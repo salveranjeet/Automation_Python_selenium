@@ -4,6 +4,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 driver_path = 'E:\\browser_drivers\\chromedriver_win32\\chromedriver.exe'
 Driver = webdriver.Chrome(executable_path=driver_path)
+
 application_url = "https://demo.guru99.com/test/newtours/"
 
 Driver.get(application_url)
@@ -12,7 +13,7 @@ Driver.implicitly_wait(10)
 
 print(Driver.current_url)
 
-excel_file_path = 'C:\\Users\\ranje\\Downloads\\login1.xlsx'
+excel_file_path = 'E:\\python_code\\Automation_Python_selenium\\TestData\\login1.xlsx'
 
 rows = XLUtils.getRowCount(excel_file_path,"Sheet1")
 
