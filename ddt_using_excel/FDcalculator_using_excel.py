@@ -18,6 +18,7 @@ driver.implicitly_wait(10)
 file = "E:\python_code\Automation_Python_selenium\TestData\caldata.xlsx"
 
 rows = XLUtils.getRowCount(file,"Sheet1")
+
 for r in range(2,rows+1):
     principalAmount = XLUtils.readData(file,"Sheet1",r,1)
     rateOfInterest = XLUtils.readData(file,"Sheet1",r,2)
