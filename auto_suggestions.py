@@ -16,3 +16,12 @@ for ele in autocompletelist:
         break
 
 
+
+# self.driver.find_element(By.XPATH, self.from_autosuggest_xpath).send_keys(letter)
+# self.WebDriverWait.until(EC.visibility_of_all_elements_located((By.XPATH,self.from_autosuggest_xpath)))
+# place = self.driver.find_elements(By.XPATH, self.from_autosuggest_xpath)
+# for ele in place:
+#     print("suggestion are:", ele.text)
+#     if ele.text == value:
+#         ele.click()
+#         break

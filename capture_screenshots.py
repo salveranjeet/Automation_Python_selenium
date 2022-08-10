@@ -4,7 +4,8 @@ def capture_screenshots():
 
     driver_path = 'C:\\Users\\ranje\\Downloads\\chromedriver_win32\\chromedriver.exe'
     Driver = webdriver.Chrome(executable_path=driver_path)
-    application_url = "https://opensource-demo.orangehrmlive.com/"
+    # application_url = "https://opensource-demo.orangehrmlive.com/"
+    application_url = "https://www.nopcommerce.com/en/demo"
     Driver.get(application_url)
     Driver.implicitly_wait(10)
 
